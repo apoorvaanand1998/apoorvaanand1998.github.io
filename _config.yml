@@ -23,9 +23,9 @@ navbar-links:
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-navbar-col: "white"
+navbar-col: "#adabab"
 # navbar-img: "/img/bgimage.png"
-footer-col: "#white"
+footer-col: "#adabab"
 # footer-img: "/img/bgimage.png"
 page-col: "#adabab"
 # page-img: "/img/bgimage.png"
