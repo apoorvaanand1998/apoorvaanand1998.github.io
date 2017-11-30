@@ -8,5 +8,5 @@ My name is Apoorva Anand. I don't want to define myself with the qualities I cur
 
 The reason this blog exists is threefold: 
 * To record my voyage.
-* To help in the germination of seed crystals. 
+* To help in the growth of seed crystals. 
 * To rant and ramble.
