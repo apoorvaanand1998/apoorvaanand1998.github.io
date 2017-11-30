@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: And why I decided to blog
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Apoorva Anand. I don't want to define myself with the qualities I currently have. Why? Probably because I'm embarrassed of them. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+The reason for the existence of this blog is threefold. First, the term blog has it's origins in "Web Log" - and _that_ is what I plan on doing here. I plan on recording my voyage, so to speak. Secondly, it's a chance to put down my thoughts somewhere. Who knows? Maybe a few seed crystals might germinate. Finally, I'm probably going to end up using this for rants and ramblings as well. 
