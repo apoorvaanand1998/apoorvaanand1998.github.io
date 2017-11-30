@@ -70,7 +70,7 @@ footer-links-active:
   instagram: false
   youtube: true
   spotify: true
-  telephone: true
+  telephone: false
   steam: false
   twitch: false
   yelp: false
