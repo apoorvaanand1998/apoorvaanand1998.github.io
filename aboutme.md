@@ -7,6 +7,6 @@ subtitle: And why I decided to blog
 My name is Apoorva Anand. I don't want to define myself with the qualities I currently have. Why? Probably because I'm embarrassed of them. 
 
 The reason this blog exists is threefold : 
-* The term blog has it's origins in "Web Log" - and _that_ is what I plan on doing here. I plan on recording my voyage, so to speak. 
-* It's gives me a chance to put down my thoughts somewhere. Who knows? Maybe a few seed crystals might germinate. 
+* To record my voyage.
+* To help in the germination of seed crystals. 
 * To rant and to ramble.
