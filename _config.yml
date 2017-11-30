@@ -40,7 +40,7 @@ author:
   facebook: apoorva.anand.1998
   github: apoorvaanand1998
   #twitter: yourname   # eg. daattali
-  reddit: ApprovedAnand
+  #reddit: ApprovedAnand
   #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   #linkedin: yourname  # eg. daattali
   #xing: yourname      # eg. daattali
@@ -62,7 +62,7 @@ footer-links-active:
   twitter: false
   google-plus: false
   github: true
-  reddit: true
+  reddit: false
   linkedin: false
   xing: false
   stackoverflow: false
