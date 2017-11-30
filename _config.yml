@@ -27,7 +27,7 @@ navbar-col: "#adabab"
 # navbar-img: "/img/bgimage.png"
 footer-col: "#adabab"
 # footer-img: "/img/bgimage.png"
-page-col: "#adabab"
+page-col: "white"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
