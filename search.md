@@ -2,10 +2,9 @@
 layout: page
 title: Search
 ---
-
 <script>
   (function() {
-    var cx = '007033901302297952324:i2q8flceljm';
+    var cx = '007033901302297952324:pxshembfx-k';
     var gcse = document.createElement('script');
     gcse.type = 'text/javascript';
     gcse.async = true;
