@@ -86,7 +86,7 @@ url-pretty: "apoorvaanand1998.github.io"
 disqus: "apoorvaanand1998-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-111000523-1"
 
 # Google Tag Manager ID
 #gtm: ""
