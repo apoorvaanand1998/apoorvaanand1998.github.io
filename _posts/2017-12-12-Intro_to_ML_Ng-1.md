@@ -8,13 +8,13 @@ tags: [Computer Science, Machine Learning, Andrew Ng]
 This is it. This is my first post. Let's begin.
 
 Applications of machine learning :
-* Ranking webpages 
-* Facial recognition 
-* Filtering spam
-* Database mining - Large datasets from growth of automation/web (Web click data, medical records, biology, engineering)
-* Applications that can't program by hand (Autonomous helicopter, handwriting recognition, NLP, Computer Vision)
-* Self-customizing programs (Amazon, netflix recommendations) 
-* Understanding human learning
+* Ranking webpages.
+* Facial recognition. 
+* Filtering spam.
+* Database mining - Large datasets from growth of automation/web (Web click data, medical records, biology, engineering).
+* Applications that can't program by hand (Autonomous helicopter, handwriting recognition, NLP, Computer Vision).
+* Self-customizing programs (Amazon, netflix recommendations).
+* Understanding human learning.
 
 ## What is machine learning?
 
@@ -22,7 +22,7 @@ Field of study that gives computers the ability to learn without being explicity
 
 A well-posed learning problem: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. 
 
-Main two types of learning algorithms :
+Two main types of learning algorithms :
 1. Supervised learning - Teach the computer how to do something
 2. Unsupervised learning - Learns by itself
 
@@ -68,7 +68,7 @@ In linear regression, we need to come up with values for Q0 and Q1 so that the s
 
 We can do this by minimizing Q1 and Q2 over a cost function. For most linear regression problems, the **squared error cost function** works well. There are also other cost functions as well. 
 
-##Cost Function 
+## Cost Function 
 
 ![Squared error cost function](https://i.stack.imgur.com/O752N.png "Squared error cost function")
 
