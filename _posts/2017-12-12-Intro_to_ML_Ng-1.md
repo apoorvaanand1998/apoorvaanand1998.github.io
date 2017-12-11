@@ -59,7 +59,7 @@ Notation :
 * (x, y) - Particular training example
 * (x(i), y(i)) - Refers to the i-th entry of the training set (It's actually (x^(i), y^(i))
 
-![Supervised learning flowchart](http://images.slideplayer.com/25/7764095/slides/slide_4.jpg)
+![Supervised learning flowchart](http://images.slideplayer.com/25/7764095/slides/slide_4.jpg "Supervised learning flowchart and Univariate linear regression function")
 
 Why is linear regression represented by h(x) = Q0 + Q1(x)? Remember y = mx + c?
 Here Qi's are known as the "parameters" of the model (Q is actually supposed to be "theta", and (0 and 1) in (Q0 and Q1) are subscripts).
