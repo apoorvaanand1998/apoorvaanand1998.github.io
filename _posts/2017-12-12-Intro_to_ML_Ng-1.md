@@ -23,8 +23,8 @@ Field of study that gives computers the ability to learn without being explicity
 A well-posed learning problem: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. 
 
 Two main types of learning algorithms :
-1. Supervised learning - Teach the computer how to do something
-2. Unsupervised learning - Learns by itself
+1. Supervised learning - Teach the computer how to do something.
+2. Unsupervised learning - Learns by itself.
 
 ## Supervised learning
 
@@ -66,7 +66,7 @@ Here Qi's are known as the "parameters" of the model (Q is actually supposed to 
 
 In linear regression, we need to come up with values for Q0 and Q1 so that the straight line that we get corresponds or fits to the data well. How do we know it fits well? The idea is to choose Q0 and Q1 so that h(x) is close to the y's we already know from our training set. 
 
-We can do this by minimizing Q1 and Q2 over a cost function. For most linear regression problems, the **squared error cost function** works well. There are also other cost functions as well. 
+We can do this by minimizing Q1 and Q2 over a cost function. For most linear regression problems, the **squared error cost function** works well. There are other cost functions as well. 
 
 ## Cost Function 
 
