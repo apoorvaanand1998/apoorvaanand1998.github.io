@@ -16,7 +16,7 @@ Applications of machine learning :
 * Self-customizing programs (Amazon, netflix recommendations) 
 * Understanding human learning
 
-#What is machine learning?
+## What is machine learning?
 
 Field of study that gives computers the ability to learn without being explicity programmed. 
 
