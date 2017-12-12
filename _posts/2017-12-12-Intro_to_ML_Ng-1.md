@@ -12,7 +12,7 @@ Applications of machine learning :
 * Facial recognition. 
 * Filtering spam.
 * Database mining - Large datasets from growth of automation/web (Web click data, medical records, biology, engineering).
-* Applications that can't program by hand (Autonomous helicopter, handwriting recognition, NLP, Computer Vision).
+* Applications that can't be programmed by hand (Autonomous helicopter, handwriting recognition, NLP, Computer Vision).
 * Self-customizing programs (Amazon, netflix recommendations).
 * Understanding human learning.
 
@@ -28,7 +28,7 @@ Two main types of learning algorithms :
 
 ## Supervised learning
 
-"Right answers" are given - Dataset with known valued (right answers) given. Task of the algorithm to produce more of these "right answers". 
+"Right answers" are given - Dataset with known values (right answers) given. Task of the algorithm to produce more of these "right answers". 
 
 In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.
 
