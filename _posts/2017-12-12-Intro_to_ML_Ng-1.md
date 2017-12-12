@@ -64,7 +64,7 @@ Notation :
 Why is linear regression represented by h(x) = Q0 + Q1(x)? Remember y = mx + c?
 Here Qi's are known as the "parameters" of the model (Q is actually supposed to be "theta", and (0 and 1) in (Q0 and Q1) are subscripts).
 
-In linear regression, we need to come up with values for Q0 and Q1 so that the straight line that we get corresponds or fits to the data well. How do we know it fits well? The idea is to choose Q0 and Q1 so that h(x) is close to the y's we already know from our training set. 
+In linear regression, we need to come up with values for Q0 and Q1 so that the straight line we get corresponds or fits to the data well. How do we know it fits well? The idea is to choose Q0 and Q1 so that h(x) is close to the y's we already know from our training set. 
 
 We can do this by minimizing Q1 and Q2 over a cost function. For most linear regression problems, the **squared error cost function** works well. There are other cost functions as well. 
 
@@ -72,7 +72,7 @@ We can do this by minimizing Q1 and Q2 over a cost function. For most linear reg
 
 ![Squared error cost function](https://i.stack.imgur.com/O752N.png "Squared error cost function")
 
-We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+**We measure the accuracy of our hypothesis function by using a cost function.** This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
 
 
 
