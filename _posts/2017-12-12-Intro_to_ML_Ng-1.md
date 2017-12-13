@@ -68,11 +68,45 @@ In linear regression, we need to come up with values for Q0 and Q1 so that the s
 
 We can do this by minimizing Q1 and Q2 over a cost function. For most linear regression problems, the **squared error cost function** works well. There are other cost functions as well. 
 
-## Cost Function 
+## Cost function 
 
 ![Squared error cost function](https://i.stack.imgur.com/O752N.png "Squared error cost function")
 
 **We measure the accuracy of our hypothesis function by using a cost function.** This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+So, the smaller the value of the cost function, the better fit our line is to the training examples. How do we minimize the cost function? By using an algorithm called gradient descent. 
+
+## Gradient descent 
+
+Gradient descent is a general algorithm. What this means is, it is not only used to minimize the cost function of linear regression but is also used to minimize other functions. So we have our hypothesis function and we have a way of measuring how well it fits into the data (the cost function). Now we need to estimate the parameters in the hypothesis function. That's where gradient descent comes in. 
+
+We put Q0 on the x axis and Q1 on the y axis, with the cost function on the vertical z axis. The points on our graph will be the result of the cost function using our hypothesis with those specific theta parameters. We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum.
+
+![Graph described above](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1513296000000&hmac=GKjyEevxUsdOFKOG9bb4ANzT7fIi6ljk6L4f4oqcvcU)
+
+To do the above, we use the gradient descent algorithm, which is :
+
+![General gradient descent algorithm](https://2.bp.blogspot.com/-AdV-O-MoZHE/TtLibFTaf9I/AAAAAAAAAVM/aOxUGP7zl98/s1600/gradient+descent+algorithm+OLS.png "General gradient descent algorithm")
+
+The alfa in the equation above is called the "learning rate", i.e. it tells us "how big a step" we take down from each point on the "hill" (i.e. how big a step we take while updating Qj). 
+
+Here, both Q0 and Q1, i.e. for j = 0 and 1 are updated simultaneously. What this means is, we don't plug in the new value of Q0 into Q1 (or vice versa). We store both the values of of Q0 and Q1 in temp variables, and _then_ substitute the Q's for their temp variables. 
+
+## Let's combine 'em!
+
+By combining gradient descent with the cost function of linear regression, we get the algorithm for linear regression! 
+
+![Parameters for linear regression](/img/LRGD.png "Parameters for linear regression")
+
+To get the above, gradient descent looks at _every_ example in the training set on every step, and this is called **batch gradient descent**. Gradient descent leads to the local minima in general, fortunately linear regression has only one minima - the global minima and therefore, assuming the learning rate isn't too large, it will always converge to the global minima. 
+
+And that's it! We've successfully learned our first machine learning algorithm.  
+
+
+
+
+
+
 
 
 
