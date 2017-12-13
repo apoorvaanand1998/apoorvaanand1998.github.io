@@ -96,7 +96,7 @@ Here, both Q0 and Q1, i.e. for j = 0 and 1 are updated simultaneously. What this
 
 By combining gradient descent with the cost function of linear regression, we get the algorithm for linear regression! 
 
-![Parameters for linear regression](/img/LRGD.png "Parameters for linear regression")
+![Parameters for linear regression](/img/LRGD "Parameters for linear regression")
 
 To get the above, gradient descent looks at _every_ example in the training set on every step, and this is called **batch gradient descent**. Gradient descent leads to the local minima in general, fortunately linear regression has only one minima - the global minima and therefore, assuming the learning rate isn't too large, it will always converge to the global minima. 
 
