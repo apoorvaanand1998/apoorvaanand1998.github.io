@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Introduction to Machine Learning - 2
 subtitle: Multivariate linear regression 
 tags: [Computer Science, Machine Learning, Andrew Ng]
