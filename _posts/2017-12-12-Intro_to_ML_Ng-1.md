@@ -61,7 +61,7 @@ Notation :
 
 ![Supervised learning flowchart](http://images.slideplayer.com/25/7764095/slides/slide_4.jpg "Supervised learning flowchart and Univariate linear regression function")
 
-Why is linear regression represented by h(x) = Q0 + Q1(x)? Remember y = mx + c?
+Why is linear regression represented by h(x) = Q0 + Q1.x? Remember y = mx + c?
 Here Qi's are known as the "parameters" of the model (Q is actually supposed to be "theta", and (0 and 1) in (Q0 and Q1) are subscripts).
 
 In linear regression, we need to come up with values for Q0 and Q1 so that the straight line we get corresponds or fits to the data well. How do we know it fits well? The idea is to choose Q0 and Q1 so that h(x) is close to the y's we already know from our training set. 
