@@ -38,7 +38,7 @@ Feature scaling involves dividing the input values by the range (i.e. the maximu
 
 ### Mean normalization
 
-![Mean normalization formula](/img/MNMLR.png "Mean normalization formula")
+![Mean normalization formula](/img/MN.png "Mean normalization formula")
 
 Where s_i is the range or standard deviation. 
 
