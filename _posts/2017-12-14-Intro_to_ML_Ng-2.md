@@ -83,4 +83,5 @@ When you use the normal equation method to compute the parameters, feature scali
 | O (kn^2) |	O (n^3) | 
 | Works well when n is large |	Slow if n is very large |
 
+
 Next up, programming assignment - 1! I'm scared, but also excited.
