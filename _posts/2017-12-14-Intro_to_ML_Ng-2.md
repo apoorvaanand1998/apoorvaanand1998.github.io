@@ -68,9 +68,9 @@ One important thing to keep in mind is, if you choose your features this way the
 
 The normal equation method is used to compute the parameters analytically as opposed to iteratively (using gradient descent). 
 
-Q (Parameter matrix) = ((X'.X)^(-1)).X'.y
+Q (Parameter matrix) = ((X'.X)^(-1)).X'.y (Here the inverse is always done using 'pinv' in octave, this is done in case X'.X is not invertible)
 
-where y is the vector that contains all the output/target variables and each row in X is the transpose of the feature vector for all input variable/features. 
+where y is the vector that contains all the output/target variables and each row in X is the transpose of the feature vector for all input variable/features (called the design matrix). 
 
 When you use the normal equation method to compute the parameters, feature scaling is not necessary. 
 
@@ -83,3 +83,4 @@ When you use the normal equation method to compute the parameters, feature scali
 | O (kn^2) |	O (n^3) | 
 | Works well when n is large |	Slow if n is very large |
 
+Next up, programming assignment - 1! I'm scared, but also excited.
