@@ -11,7 +11,7 @@ I'm not a great writer. In fact, calling myself a writer of things would be the 
 
 --- 
 
-It was a dark, gloomy night when he got the thought. The kind of night you'd stay at home, flip through an old book or mindlessly search the web. The thought stewed and simmered in the corner of his mind, as he did his mindless task. It started off as a blob in his head, but slowly evolved into a small worm that was burrowed in there. The worm wiggled as it tried to take over, shaking other thoughts in his head. Slowly, as he continued doing his dishes, or as he folded his clothes, it grew; growing into a mucous-like slime with a life of it's own. It swirled around his head, mixing, taking into it all the other small thoughts. With that consumption - it grew.
+It was a dark, gloomy night when he got the thought. The kind of night you'd stay at home, flip through an old book or mindlessly search the web. The thought stewed and simmered in the corner of his mind, as he did his mindless task. It started off as a blob in his head, but slowly evolved into a small worm that was burrowed in there. The worm wiggled as it tried to take over, shaking other thoughts in his head. Slowly, as he continued doing his dishes, or as he folded his clothes, it grew; growing into a mucous-like slime with a life of it's own. It swirled around his head, mixing, taking into it all the other smaller thoughts. With that consumption - it grew.
 
 Colours appeared.
 
