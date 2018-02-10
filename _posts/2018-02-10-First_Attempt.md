@@ -9,9 +9,7 @@ Courage (or let's say stupidity) has a strange way of finding itself in me when 
 
 I'm not a great writer. In fact, calling myself a writer of things would be the same as calling someone who eats meat with a knife, a butcher (As you can see, I'm _really_ not good with words). That being said, it's not something I particularly want to improve in (I hope that doesn't seem to arrogant or anything), so my incompetence isn't too big a deal for me. My words, for the most part, will do.
 
-I know most of this is cliche and boring. Perhaps a bit unoriginal. I'd understand if you felt second-hand embarrassment ([Fremdscham](https://en.wiktionary.org/wiki/Fremdscham "German word for second-hand embarrassment")). But, if you think there's something that can improved here, let me know! ~~Please don't be too harsh.~~
-
-===
+--- 
 
     It was a dark, gloomy night when he got the thought. The kind of night you'd stay at home, flip through an old book or mindlessly search the web. The thought stewed and simmered in the corner of his mind, as he did his mindless task. It started off as a blob in his head, but slowly evolved into a small worm that was burrowed in there. The worm wiggled as it tried to take over, shaking other thoughts in his head. Slowly, as he continued doing his dishes, or as he folded his clothes, it grew; growing into a mucous-like slime with a life of it's own. It swirled around his head, mixing, taking into it all the other small thoughts. With that consumption - it grew.
 
@@ -34,3 +32,7 @@ I know most of this is cliche and boring. Perhaps a bit unoriginal. I'd understa
     The thought - after a while he noticed - was much smaller now. He realized _he_ was much larger. He'd absorbed it. Now, it didn't seem scary to him at all. With a quick burst of energy, he rushed in; he knew this would be the final bout.
     
     He crushed the thought. Completely assimilating it into him. A wave of contentment washed over him, he was exhausted, but he was happy. He left a larger, more complex man. 
+
+---
+
+I know most of this is cliche and boring. Perhaps a bit unoriginal. I'd understand if you felt second-hand embarrassment ([Fremdscham](https://en.wiktionary.org/wiki/Fremdscham "German word for second-hand embarrassment")). But, if you think there's something that can improved here, let me know! ~~Please don't be too harsh.~~
