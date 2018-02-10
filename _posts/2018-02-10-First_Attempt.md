@@ -35,4 +35,4 @@ He crushed the thought. Completely assimilating it into him. A wave of contentme
 
 ---
 
-I know most of this is cliche and boring. Perhaps a bit unoriginal. I'd understand if you felt second-hand embarrassment ([Fremdscham](https://en.wiktionary.org/wiki/Fremdscham "German word for second-hand embarrassment")). But, if you think there's something that can improved here, let me know! ~~Please don't be too harsh.~~
+I know most of this is cliche and boring. Unoriginal. I'd understand if you felt second-hand embarrassment ([Fremdscham](https://en.wiktionary.org/wiki/Fremdscham "German word for second-hand embarrassment")). But, if you think there's something that can improved here, let me know! ~~Please don't be too harsh.~~
