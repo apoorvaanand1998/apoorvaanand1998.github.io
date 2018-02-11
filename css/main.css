@@ -9,7 +9,7 @@ layout: null
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #404040;
+  color: #ffffff;
   position: relative;
   background: #FFF;
   {% if site.page-col %}
@@ -50,7 +50,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: #404040;
+  border-color: inherit;
   border-radius: 3px;
 }
 
