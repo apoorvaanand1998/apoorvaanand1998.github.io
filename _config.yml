@@ -44,7 +44,7 @@ author:
   #linkedin: yourname  # eg. daattali
   #xing: yourname      # eg. daattali
   #stackoverflow: yourlink  # eg. "3943160/daattali"
-  #snapchat: yourname  # eg. daattali
+  snapchat: apoorvaanand245
   #instagram: yourname # eg. daattali
   youtube: channel/UCIUhgbs21RPpvZp5jb0nvcA
   spotify: apoorvaanand98
@@ -65,7 +65,7 @@ footer-links-active:
   linkedin: false
   xing: false
   stackoverflow: false
-  snapchat: false
+  snapchat: true
   instagram: false
   youtube: true
   spotify: true
