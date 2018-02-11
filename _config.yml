@@ -21,9 +21,9 @@ navbar-links:
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
 
-navbar-col: "#aa0000"
+# navbar-col: "#aa0000"
 # navbar-img: "/img/bgimage.png"
-footer-col: "#aa0000"
+# footer-col: "#aa0000"
 # footer-img: "/img/bgimage.png"
 # page-col: "#ff5555"
 # page-img: "/img/cardboard_@2X.png"
