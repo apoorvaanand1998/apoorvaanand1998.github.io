@@ -23,7 +23,7 @@ He worked, and mourned the loss of the thought, just because he'd accepted that 
     
 It was in metamorphosis. 
     
-The thought was back (but not really, because how can you say it was back, if it had never left?), and he was filled with joy. Quickly, he decided not to dwell on the joy, but to explore the thought. It had changed. Now, the thought had bulbous parts, colors constantly spiralling, and it's size now reaching a point he couldn't comprehend. 
+The thought was back (but not really, because how can you say it was back, if it had never left?), and he was filled with joy. Quickly, he decided not to dwell on the joy, but to explore the thought. It had changed. Now, the thought had bulbous parts, colours constantly spiralling, and it's size now reaching a point he couldn't comprehend. 
     
 He couldn't believe it was his. It's complexity surprising him, scaring him. But it was his, and after all the loss he had felt when it had left, he wasn't going to let it go away.
     
