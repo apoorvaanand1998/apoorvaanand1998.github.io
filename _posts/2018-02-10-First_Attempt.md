@@ -33,4 +33,6 @@ The thought - after a while he noticed - was much smaller now. He realized _he_ 
     
 He crushed the thought. Completely assimilating it into him. A wave of contentment washed over him. He was exhausted, but he was happy. He left a larger, more complex man. 
 
+---
+
 I know most of this is cliche and boring. Unoriginal. I'd understand if you felt second-hand embarrassment ([Fremdscham](https://en.wiktionary.org/wiki/Fremdscham "German word for second-hand embarrassment")). But, if you think there's something that can improved here, let me know! ~~Please don't be too harsh.~~
