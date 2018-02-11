@@ -22,11 +22,14 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 #navbar-col: "#9d9898"
 #navbar-col: "#b3b6b7"
+navbar-col: "#7851a9"
 # navbar-img: "/img/bgimage.png"
 #footer-col: "#9d9898"
 #footer-col: "#b3b6b7"
+footer-col: "#7851a9"
 # footer-img: "/img/bgimage.png"
-page-col: "#adabab"
+page-col: "#939393"
+#page-col: "#dcdcdc"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
