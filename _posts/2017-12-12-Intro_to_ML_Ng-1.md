@@ -82,13 +82,13 @@ Gradient descent is a general algorithm. What this means is, it is not only used
 
 We put Q0 on the x axis and Q1 on the y axis, with the cost function on the vertical z axis. The points on our graph will be the result of the cost function using our hypothesis with those specific theta parameters. We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum.
 
-![Graph described above](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1513296000000&hmac=GKjyEevxUsdOFKOG9bb4ANzT7fIi6ljk6L4f4oqcvcU)
+![Graph described above](https://img-blog.csdn.net/20160213171748769)
 
 To do the above, we use the gradient descent algorithm, which is :
 
 ![General gradient descent algorithm](https://2.bp.blogspot.com/-AdV-O-MoZHE/TtLibFTaf9I/AAAAAAAAAVM/aOxUGP7zl98/s1600/gradient+descent+algorithm+OLS.png "General gradient descent algorithm")
 
-The alfa in the equation above is called the "learning rate", i.e. it tells us "how big a step" we take down from each point on the "hill" (i.e. how big a step we take while updating Qj). 
+The alpha in the equation above is called the "learning rate", i.e. it tells us "how big a step" we take down from each point on the "hill" (i.e. how big a step we take while updating Qj). 
 
 Here, both Q0 and Q1, i.e. for j = 0 and 1 are updated simultaneously. What this means is, we don't plug in the new value of Q0 into Q1 (or vice versa). We store both the values of of Q0 and Q1 in temp variables, and _then_ substitute the Q's for their temp variables. 
 
