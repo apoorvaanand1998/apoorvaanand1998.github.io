@@ -22,11 +22,11 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 
 # navbar-col: "#aa0000"
-navbar-img: "/img/vintage-concrete.png"
+navbar-img: "/img/mochaGrunge_@2X.png"
 # footer-col: "#aa0000"
-footer-img: "/img/vintage-concrete.png"
+footer-img: "/img/mochaGrunge_@2X.png"
 # page-col: "#ff5555"
-page-img: "/img/topography.png"
+page-img: "/img/vintage-concrete.png"
 
 # --- Footer options --- #
 
