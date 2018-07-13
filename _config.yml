@@ -22,9 +22,9 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 
 # navbar-col: "#aa0000"
-navbar-img: "/img/topography.png"
+navbar-img: "/img/mekong-green.png"
 # footer-col: "#aa0000"
-footer-img: "/img/topography.png"
+footer-img: "/img/mekong-green.png"
 # page-col: "#ff5555"
 page-img: "/img/topography.png"
 
