@@ -22,11 +22,11 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 
 # navbar-col: "#aa0000"
-navbar-img: "/img/swirl_pattern.png"
+navbar-img: "/img/topography.png"
 # footer-col: "#aa0000"
-footer-img: "/img/swirl_pattern.png"
+footer-img: "/img/topography.png"
 # page-col: "#ff5555"
-page-img: "/img/topography.png"
+page-img: "/img/swirl_pattern.png"
 
 # --- Footer options --- #
 
