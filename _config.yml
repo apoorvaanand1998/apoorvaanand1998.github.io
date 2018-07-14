@@ -4,7 +4,7 @@ title: Apoorva Anand
 description: I blog here.
 
 # Image to show in the navigation bar - image must be a square (width = height)
-#avatar: "/img/avatar-icon.png"
+#avatar: "/img/aa.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -22,9 +22,9 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 
 # navbar-col: "#aa0000"
-navbar-img: "/img/dust_scratches.png"
+navbar-img: "/img/pink_rice.png"
 # footer-col: "#aa0000"
-footer-img: "/img/dust_scratches.png"
+footer-img: "/img/pink_rice.png"
 # page-col: "#ff5555"
 page-img: "/img/dust_scratches.png"
 
