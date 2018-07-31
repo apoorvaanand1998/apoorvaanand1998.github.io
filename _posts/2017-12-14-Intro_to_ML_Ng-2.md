@@ -74,7 +74,7 @@ where y is the vector that contains all the output/target variables and each row
 
 When you use the normal equation method to compute the parameters, feature scaling is not necessary. 
 
-![X matrix](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dykma6dwEea3qApInhZCFg_333df5f11086fee19c4fb81bc34d5125_Screenshot-2016-11-10-10.06.16.png?expiry=1513641600000&hmac=tJDVD9Jq_c-dbewUSsK7vFQFgk6pCEvyNTFWfP6ZCdg "Finding out the X matrix")
+#![X matrix](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/dykma6dwEea3qApInhZCFg_333df5f11086fee19c4fb81bc34d5125_Screenshot-2016-11-10-10.06.16.png?expiry=1513641600000&hmac=tJDVD9Jq_c-dbewUSsK7vFQFgk6pCEvyNTFWfP6ZCdg "Finding out the X matrix")
 
 | Gradient descent | Normal equation |
 | :--------------- | :-------------- |
