@@ -5,7 +5,7 @@ subtitle: Putting myself out there
 tags: [Writing, Rambles]
 ---
 
-Courage (or let's say stupidity) has a strange way of finding itself in me when I've accrued a sleep debt. I wrote this in one of those times. This is a first for me because sharing something you've written is like revealing something intimate. And putting it on a website? That's you going "Here you go, judge me!"
+Courage (or stupidity) has a strange way of finding itself in me when I've accrued a sleep debt. I wrote this in one of those times. This is a first for me because sharing something you've written is like revealing something intimate. And putting it on a website? That's you going "Here you go, judge me!"
 
 I'm not a great writer. In fact, calling myself a writer of things would be the same as calling someone who eats meat with a knife, a butcher (As you can see, I'm _really_ not good with words). That being said, it's not something I particularly want to improve in (I hope that doesn't seem too arrogant or anything), so my incompetence isn't too big a deal for me. My words, for the most part, will do.
 
