@@ -1,0 +1,194 @@
+---
+layout: post
+title: K&R - 1
+subtitle: Notes for autodidactic (Is that even a word?) purposes
+tags: [Computer Science, C, K&R]
+---
+
+C provides a variety of datatypes - characters, integers and floating points. Along with these, there are the following derived datatypes - pointers, arrays, structures and unions. Every program must have a "main" function, as this is where the execution begins. You cannot name the "main" function as anything else. 
+
+"printf" is not a part of the C language, it is present in the <stdio.h> library. "%6.2f" prints a floating point, **at least** 6 wide and 2 after the decimal point. 
+
+When taking characters as input, and using EOF to signify the end of input, we must declare a datatype big enough to hold the value of EOF. Therefore, we use the datatype int. The precedence of != is higher than =, which means one must use parentheses in the following way while taking in input:
+
+`((c = getchar) != EOF)`
+
+The grammatical rules of C require that a "for" statement have a body. So, when all of the work is done in the testing and incrementing part of for, we place a "null statement" in the body of the loop. 
+
+A single character written in single quotes is called a character constant. It represents the integer value of that character, but is obviously more intuitive to write, instead of the ASCII value. 
+
+Ex 1_9: Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank. 
+
+```
+#include <stdio.h>
+
+int main()
+{
+    int c, cp;
+    
+    cp = 0; //any value that is not a space
+    
+    while ((c = getchar()) != EOF) {
+        if (cp == ' ' && c == ' ') 
+            ;
+        else {
+            putchar(c);
+            cp = c;
+        }
+    }
+    
+    return 0;
+}
+```
+
+Ex 1_12: Write a program that prints its input one word per line. 
+
+There are two ways that this program can be written. I can either keep track of the "state" or keep track of the previous character.
+
+```
+#include <stdio.h>
+
+#define OUT 0
+#define IN 1
+
+
+int main() 
+{
+    int c, state;
+    
+    state = OUT;
+    
+    while ((c = getchar()) != EOF) {
+        if (c != ' ' && c != '\n' && c != '\t') {
+            state = IN;
+            putchar(c);
+        }
+        else if (state == IN) {
+            state = OUT;
+            putchar('\n');
+        }
+    }
+    return 0;
+}
+```
+
+```
+#include <stdio.h>
+
+int main()
+{
+    int c, cp;
+    
+    cp = 0;
+    
+    while ((c = getchar()) != EOF) {
+        if ((c == '\t' || c == ' ' || c == '\n') && (cp != '\n')) {
+            putchar('\n');
+            cp = '\n';
+        }
+        else if ((c == '\t' || c == ' ' || c == '\n') && (cp == '\n'))
+            ;
+        else {
+            putchar(c);
+            cp = c;
+        }
+    }
+    return 0;
+}
+```
+
+Ex1_14: Write a program to print a histogram of the frequencies of different characters in its input. 
+
+I will be printing a vertical histogram. In this program, first you find the maximum frequency. From the max value, you iterate in reverse checking for every character if the value of that character's frequency is >= the current loop variable value. If it is, then you print a "*" for that variable of histogram, after the required number of spaces. During this, I found a shortcut for printing repeated characters, which is shown below:
+
+```
+#include <stdio.h>
+
+int main() {
+    int c, i, j, m, fc[26];
+    
+    for (i = 0; i < 26; i++)
+        fc[i] = 0;
+    
+    while ((c = getchar()) != EOF) {
+        if (c >= 'a' && c <= 'z') {
+            ++fc[c - 'a'];
+        }
+    }
+    
+    
+     for (i = 0; i < 26; i++)
+        printf("fc[%c] = %d\n", (char)i + 'a', fc[i]);
+    
+    
+    for (i = 0; i < 26; i++) 
+        if (fc[i] > m)
+            m = fc[i];
+    
+        
+    for (j = m; j >= 1; j--) {
+        for (i = 0; i < 26; i++) {
+            if (fc[i] >= j) {
+                printf("%*c", i - 1, ' ');
+                printf("*");
+            }
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
+```
+
+In a function, variables are "called by value" in C. To "call by reference", one must pass the address of the variables to the caller, and called function must declare the parameter to be a pointer. This is not done with arrays as arrays are called by reference always. 
+
+Ex1_18: Write a program to remove all trailing blanks and tabs from each line of input, and to delete entirely blank lines. 
+
+```
+#include <stdio.h>
+
+int getline1(char line[], int lim);
+
+int main()
+{
+    char line[1000];
+    int len, i;
+    
+    while ((len = getline1(line, 1000)) > 0) {
+        for (i = len - 1; ((line[i] == ' ') || (line[i] == '\t') || (line[i] == '\n')); --i) 
+            ;
+        line[++i] = '\n';
+        line[++i] = '\0';
+        printf("%s", line);
+    }
+    
+    return 0;
+}
+
+int getline1(char line[], int lim)
+{
+    int c, i, j;
+    
+    i = j = 0;
+    
+    while ((c = getchar()) != EOF && (c != '\n')) {
+        if (i < lim - 1)
+            line[j++] = c;
+        ++i;
+    }
+    if (c == '\n') {
+        if (i <= lim - 1)
+            line[j++] = c;
+        ++i;
+    }
+    line[j] = '\0';
+    return i;
+}
+```
+
+Until this point, all the exercises have been fairly trivial. It is from ex 20 - 24 that this changes. The programs are discussed below. 
+
+
+
+
+
