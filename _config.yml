@@ -22,9 +22,9 @@ navbar-links:
 # for the navigation bar, the main page, and the footer.
 
 # navbar-col: "#aa0000"
-navbar-img: "/img/mochaGrunge_@2X.png"
+navbar-img: "/img/grey.jpg"
 # footer-col: "#aa0000"
-footer-img: "/img/mochaGrunge_@2X.png"
+footer-img: "/img/grey.jpg"
 # page-col: "#ff5555"
 page-img: "/img/dust_scratches.png"
 
