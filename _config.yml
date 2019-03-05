@@ -55,7 +55,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: true
-  facebook: true
+  facebook: false
   email: true
   twitter: false
   google-plus: false
@@ -64,10 +64,10 @@ footer-links-active:
   linkedin: false
   xing: false
   stackoverflow: false
-  snapchat: true
+  snapchat: false
   instagram: false
-  youtube: true
-  spotify: true
+  youtube: false
+  spotify: false
   telephone: true
   steam: false
   twitch: false
