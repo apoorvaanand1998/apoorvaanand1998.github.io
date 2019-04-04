@@ -25,8 +25,8 @@ Let me expand on all of this:
 3) Sigils makes the process of making the dashboards in Kibiter super easy. Basically, make Graal work with Sigils. Don't let the users waste too much time building dashboards.
 4) After all the integration work is done, make sure the implementation works with backends of all sizes. Lots of problems can occur with a large backend, and that could reveal vulnerabilities/parts of the code that are causing slowdown etc. This needs to be fixed.
 5) Graal has many different backends and analyzers. Add to these. For example, use [licensecheck](https://wiki.debian.org/CopyrightReviewTools).
-6) All of this can basically be summed up in the image below:
-![Modified Components](img/modified_components.png) 
+6) All of this can be summed up in the image below:
+![Modified Components](/img/modified_components.png) 
 (Why link Graal to Arthur? Because Arthur has already been [extended to allow handling of Graal tasks](https://github.com/chaoss/grimoirelab-graal#how-to-integrate-it-with-arthur))
 
 [This](https://google.github.io/gsocguides/student/finding-the-right-project.html#ask-questions) page also tells you to ask questions. Thankfully, [Nishchith](https://github.com/inishchith) has already asked all the right questions. :)
