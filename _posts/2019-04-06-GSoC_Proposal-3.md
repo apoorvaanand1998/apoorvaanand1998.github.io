@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing the Proposal 2 
+title: Writing the Proposal - 2 
 subtitle: Exploring the codebase to check the level of integration
 tags: [Computer Science, Open Source, GSoC, CHAOSS, Proposal]
 ---
