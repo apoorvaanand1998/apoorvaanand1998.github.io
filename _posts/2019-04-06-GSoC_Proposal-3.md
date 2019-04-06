@@ -19,13 +19,13 @@ Okay, after reading through everything in the Arthur readme page, I've realized 
 
 - Okay, done installing arthur in a separate venv following the instructions [here](https://github.com/chaoss/grimoirelab-kingarthur#installation). Here's a screenshot:
 
-![Arthur Install](img/arthur_install.png)
+![Arthur Install](/img/arthur_install.png)
 
 Next I will setup the redis and the ElasticSearch server. [Here](https://redis.io/topics/quickstart) are the instructions for redis and the instructions for ElasticSearch can be found on the GrimoireLab tutorial itself.
 
 I've successfully followed the readme at the [Arthur](https://github.com/chaoss/grimoirelab-kingarthur) page and queued/ran Perceval tasks. Here's a screenshot:
 
-![Arthur run](img/arthurw.png)
+![Arthur run](/img/arthurw.png)
 
 I noticed that the PR that makes Arthur manage Graal tasks has not been merged into master, so let me make those changes on my local copy of Arthur and see what happens.
 
@@ -54,12 +54,12 @@ I have modified the tasks.json file to this:
 ```
 Before running Arthur, here are the indices:
 
-![ES indices](img/before.png)
+![ES indices](/img/before.png)
 Notice that one of the indices is "items" that we obtained from following the readme in the Arthur page. 
 
 After running arthur, here are the indices:
 
-![ES indices after](img/after.png)
+![ES indices after](/img/after.png)
 Notice that one of the indices is "graalitems"
 
 I am a bit confused though, docs.count and docs.deleted are 0. Maybe that's how it's supposed to work? Let me look at Elk's code now, to see if running elk creates these indices "properly"
