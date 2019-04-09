@@ -9,7 +9,7 @@ For reference, my GSoC proposal (with the comments) is [here](https://docs.googl
 
 With the way [@valeriocos](https://github.com/valeriocos) phrased this - "check the list of connectors at: https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/utils.py#L198, and see how difficult is to a graal backend", it makes me pretty scared to start the investigation from this side, that is, elk -> mordred. I am going to use a bottom-to-top approach here and hopefully that helps.
 
-For understanding mordred, I will be using [micro-mordred] (will be referring to this as "micro")(https://github.com/chaoss/grimoirelab-sirmordred/blob/master/utils/micro.py). First thing I notice - micro needs the setup.cfg and projects.json. setup.cfg contains [Backend Sections](https://github.com/chaoss/grimoirelab-sirmordred#backend-sections) that tells us the name of the backend, the name of the raw and enriched indices and parameters. Projects.json contains the URI of the backend corresponding to a Backend Section in the setup.cfg.
+For understanding mordred, I will be using [micro-mordred](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/utils/micro.py)(will be referring to this as "micro"). First thing I notice - micro needs the setup.cfg and projects.json. setup.cfg contains [Backend Sections](https://github.com/chaoss/grimoirelab-sirmordred#backend-sections) that tells us the name of the backend, the name of the raw and enriched indices and parameters. Projects.json contains the URI of the backend corresponding to a Backend Section in the setup.cfg.
 
 The functions to note in micro are - get_raw() and get_enrich().
 
