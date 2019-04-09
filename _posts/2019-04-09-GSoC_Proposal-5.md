@@ -19,7 +19,7 @@ TaskRawDataCollection() uses [feed_backend()!](https://github.com/chaoss/grimoir
 
 get_enrich() uses the TaskEnrich class in [task_enrich.py](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/sirmordred/task_enrich.py). 
 
-The main function to note in TaskEnrich's __enrich_items is enrich_backend(). Damn! This leads to Elk's connectors too. I guess I _have_ to go investigate things from Elk's side now.
+The main function to note in TaskEnrich's `__enrich_items` is enrich_backend(). Damn! This leads to Elk's connectors too. I guess I _have_ to go investigate things from Elk's side now.
 
 I'm looking at [feed_backend()](https://github.com/chaoss/grimoirelab-elk/blob/master/grimoire_elk/elk.py#L105) and the first thing I notice is that all the parameters of feed_backend() are gotten from the configuration files required for Mordred.
 
